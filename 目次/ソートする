@@ -1,0 +1,6 @@
+* 書き方
+   * C 列の値の大きい順 (降順) にソート
+      ```
+      df.sort_values(by='C', ascending=False)
+      ```
+* [Pandas のデータフレームをソートする – Python でデータサイエンス](https://pythondatascience.plavox.info/pandas/データフレームをソートする)
