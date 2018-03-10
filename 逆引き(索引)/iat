@@ -1,0 +1,7 @@
+* [pandas-APIマラソン-21(pandas.DataFrame.iat) - Qiita](https://qiita.com/KennyKta/items/7876c37b46557b07ac3c)
+
+```
+for nrow in range(len(df.axes[0])):
+    for ncol in range(len(df.axes[1])):
+        print(df.iat[nrow,ncol])
+```
